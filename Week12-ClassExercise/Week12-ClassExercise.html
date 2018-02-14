@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Week12-ClassExercise</title>
+	
+	<link href="Week12-ClassExerciseCSS.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript">
+		function drawMe()
+		{
+			var canvas = document.getElementById("myCanvas");
+			
+			if(canvas.getContext)
+			{
+				var ctx = canvas.getContext("2d");
+				ctx.fillStyle = "rgb(255, 0, 0)";
+				ctx.font = "bold 3em Georgia";
+				ctx.fillText("My Canvas", 70, 100);
+				ctx.fillStyle = "rgba(0, 0, 200, 0.50)"
+				ctx.fillRect(57, 54, 100, 65);
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<a href="../Week02-Assignment1/index.html">Home</a>
+	
+	<h2>[Audio - Audio Tag]</h2>
+	<p>This page has a sound loop added to it using the &lt;audio&gt; tag.</p>
+	<audio controls="controls">
+		<source src="MediaSources/soundloop.mp3" type="audio/mpeg">
+		<source src="MediaSources/soundloop.ogg" type="audio/mpeg">
+		<a href="MediaSources/soundloop.mp3">Download the Audio File</a>
+	</audio>
+
+	<h2>[Audio - Object Tag]</h2>
+	<p>This page has a sound loop added to it using the &lt;object&gt; tag.</p>
+	<object data="MediaSources/soundloop.mp3"
+			height="50px"
+			width="100px"
+			type="audio/mpeg">
+		
+		<param name="src" value="MediaSources/soundloop.mp3" />
+		<param name="controller" value="true" />
+		<param name="autoplay" value="false" />
+	</object>
+	
+	<h2>[Vidio]</h2>
+	<video controls="controls" 
+		   poster="MediaSources/sparky.jpg"
+		   width="160px"
+		   height="150px">
+		
+		<source src="MediaSources/sparky.ogv" type="video/ogg" />
+	</video>
+	
+	<h2>[Canvas]</h2>
+	<canvas id="myCanvas" width="400px" height="175px"></canvas>
+	
+	<h2>[Flash]</h2>
+	<object type="application/x-shockwave-flash" 
+			data="MediaSources/flashlogo.swf" 
+			width="300px" 
+			height="70"
+			title="Add a little Flash to your web page">
+		
+		<param name="movie" value="MediaSources/flashlogo.swf" />
+		<param name="bgcolor" value="#FFFFFF" />
+		<param name="quality" value="high" />
+	</object>
+	
+	<h2>[Flash Embed]</h2>
+	<embed type="application/x-shockwave-flash" 
+		   src="MediaSources/fall5.swf"
+		   width="640px"
+		   height="100"
+		   quality="high"
+		   title="Beautiful Season" />
+		   
+	<h2>[iFrame]</h2>
+	<iframe
+			src="http://www.youtube.com/embed/rtCZloFmHBo" style="width: 280px; height: 178px" />
+			
+	
+	
+</body>
+
+</html>

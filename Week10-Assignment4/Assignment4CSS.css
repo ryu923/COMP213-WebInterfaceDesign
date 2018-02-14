@@ -1,0 +1,131 @@
+﻿/* All */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+div
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+
+/* Header */
+#headerParagraph
+{
+	text-align: center;
+	color: #508237;
+	font-size: x-large;
+	font-weight: bold;
+	font-family: "Arial Black";
+}
+
+#headerLogo
+{
+	width:300px;
+	height:200px;
+}
+
+#headerHomeLine
+{
+	text-align:right;
+}
+
+/* Contents */
+fieldset
+{
+	border: thick solid #008000;
+	border-radius: 20px;
+	margin-bottom:30px;
+	padding: 20px;
+}
+
+legend
+{
+	font-family:"Arial Black";
+	color:green;
+	font-size:x-large;
+	text-align:center;
+}
+
+.firstColumn
+{
+	width:300px;
+	text-align:right;
+}
+
+.txtName
+{
+	width:200px;
+}
+
+#membership, #program
+{
+	width:200px;
+
+}
+
+#txtAddress
+{
+	width:400px;
+}
+
+#txtEmail
+{
+	width:300px;
+}
+
+.firstRowTableHead
+{
+	text-align:center;
+}
+
+.payment
+{
+	text-align:center;
+}
+
+.cardImage
+{
+	width:100px;
+}
+
+.button
+{
+	width:200px;
+}
+
+#membershipAndProgramTitle
+{
+	font-weight:bold;
+	font-size:medium;
+	text-align:center;
+}
+
+#membershipAndProgramTable
+{
+	width:100%;
+}
+
+.membershipAndProgramColumns
+{
+	text-align:left;
+}
+
+.membershipAndProgramFirstColumns
+{
+	text-align:center;
+	width:200px;
+}
+
+/* Footer */
+footer
+{
+	height:150px;
+	background-image:url('images/TennisLogo.JPG');
+	background-repeat:no-repeat;
+	background-position:right;
+	font-size:small;
+}

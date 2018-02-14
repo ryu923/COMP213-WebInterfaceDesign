@@ -1,0 +1,63 @@
+﻿body
+		{
+			font-family:Arial, Helvetica, sans-serif;
+			color:black;
+			background-color:silver;
+		}
+div
+		{
+			width:980px;
+			margin-right:auto;
+			margin-left:auto;
+		}
+		
+		table
+		{
+			width:100%;
+		}
+		
+		#telusLogo
+		{
+			width:205px;
+			height:53px;
+		}
+		
+		.firstColumn
+		{
+			width: 232px;
+		}
+		
+		#contact
+		{
+			vertical-align:bottom;
+			text-align: right;
+		}
+.phonePictures
+		{
+			width:77px;
+			height:115px;
+		}
+		
+		td
+		{
+			vertical-align:top;
+		}
+		
+		ul
+		{
+			list-style-image:url('images/aball.gif')
+		}
+		
+		.smallTable
+		{
+			padding:4px;
+		}
+		
+		.oddRow
+		{
+			background-color:gray;
+		}
+.evenRow
+		{
+			background-color:olive;
+		}

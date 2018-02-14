@@ -1,0 +1,143 @@
+﻿/* All */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:white;
+}
+
+div
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table
+{
+	width:100%;
+}
+
+/* Header */
+#headerLogotd
+{
+	text-align:right;
+	background-color:#FFC20A;
+	padding:0px;
+}
+
+#headerHDE
+{
+	font-family:"Arial Black";
+	font-size:medium;
+	color:gray;
+}
+
+#headerHome
+{
+	font-family:"Arial Black";
+	font-size:medium;
+	color:gray;
+	text-align:right;
+}
+
+#headerHomeLink
+{
+	text-decoration:none;
+	color:black;
+}
+
+
+/* Contents */
+#contentsTitle
+{
+	font-family:"Arial Black";
+	font-size:xx-large;
+	padding:0px;
+}
+
+#contentsExplanation
+{
+	width:650px;
+}
+
+#bullDozerSmall
+{
+	width:250px;
+	margin-left:40px;
+}
+
+#mGlass
+{
+	width:20px;
+	margin-left:100px;
+}
+
+#view
+{
+	vertical-Align:top;
+	font-family:"Arial Black";
+	font-size:small;
+}
+
+ul
+{
+	list-style-image:url('images/loader.GIF');
+	font-family:"Arial Black";
+	font-weight:bold;
+}
+
+li
+{
+	margin-bottom:10px;
+}
+
+.smallTable
+{
+	text-align:center;
+}
+
+#smallTableHeader
+{
+	background-color:#FFC20A;
+	font-family:"Arial Black";
+}
+
+#smallTableContents
+{
+	background-color:#201E20;
+	color:white;
+}
+
+#map
+{
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-family:"Arial Black";
+}
+
+/* Footer */
+#footer
+{
+	font-size:medium;
+	color:white;
+	background-color:#201E21;
+	vertical-Align:middle;
+	text-align:left;
+	height:60px;
+	padding-left:20px;
+	background-image:url('images/catlogofooter.JPG');
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+/* Large Picture */
+#bullDozerLarge
+{
+	width:980px;
+}
+
+#largePictureBack
+{
+	text-align:center;
+}

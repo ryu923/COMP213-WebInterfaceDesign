@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Week09-ClassExercise</title>
+	
+	<link href="Week09-ClassExerciseCSS.css" rel="stylesheet" type="text/css" />
+	
+</head>
+
+<body>
+<div>
+	<!-- Header -->
+	<p id="header">
+		<img alt="headerLogo" src="images/CC50thAnniversary.jpg" />
+		Centennial College Registration Form
+	</p>
+	<p id="headerHomeLine"><a href="../Week02-Assignment1/index.html">Home</a></p>
+	
+	<!-- Contents -->
+	<table>
+		<tr>
+			<td class="fisrtColumn">First Name:</td>
+			<td><input class="txtName" type="text" /></td>
+		</tr>
+		<tr>
+			<td class="fisrtColumn">Last Name:</td>
+			<td><input class="txtName" type="text" /></td>
+		</tr>
+		
+		<tr>
+			<td class="fisrtColumn">Email:</td>
+			<td><input id="txtEmail" type="text" /></td>
+		</tr>
+		
+		<tr>
+			<td class="fisrtColumn">Create Password:</td>
+			<td><input class="txtPassword" type="text" /></td>
+		</tr>
+		<tr>
+			<td class="fisrtColumn">Confirm Password:</td>
+			<td>
+			<input class="txtPassword" type="password" name="confirmPassword" /></td>
+		</tr>
+
+		<tr>
+			<td class="fisrtColumn">Gender:</td>
+			<td>
+				<input name="radioGender" type="radio" />&nbsp;M
+				<input name="radioGender" type="radio" />&nbsp;F
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="fisrtColumn">Education:</td>
+			<td>
+				<input name="radioEducation" type="radio" />&nbsp;Secondary
+				<input name="radioEducation" type="radio" />&nbsp;College
+				<input name="radioEducation" type="radio" />&nbsp;Undergrad
+				<input name="radioEducation" type="radio" />&nbsp;Postgrad
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="fisrtColumn">Computer Knowledge:</td>
+			<td>
+				<input type="checkbox" />&nbsp;OS
+				<input type="checkbox" />&nbsp;Networking
+				<input type="checkbox" />&nbsp;Programming
+				<input type="checkbox" />&nbsp;Web Design
+				<input type="checkbox" />&nbsp;DB
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="fisrtColumn">Select Course:</td>
+			<td>
+				<select id="courseSelection" multiple="multiple">
+					<option value="COMP100">COMP100 Programming 1</option>
+					<option value="COMP125">COMP125 Client Side Scriping</option>
+					<option value="COMP213">COMP213 Web Interface Design</option>
+					<option value="COMP225">COMP225 Systems 1</option>
+					<option value="COMP229">COMP229 Server Site Develpment</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="fisrtColumn">Special Requests:</td>
+			<td>
+				<textarea id="txtRequest">
+---Please type here any special needs that you have (e.g. typing support, closed captioning, etc.)---
+				</textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td>
+				<input class="button" type="submit" value="Complete Registration" />
+				<input class="button" type="reset" value="Clear Form" />
+			</td>
+		</tr>
+	</table>
+	
+	<!-- Footer -->
+	<footer>
+		&copy;&nbsp;Copyright David
+	</footer>
+	
+	
+</div>
+</body>
+
+</html>

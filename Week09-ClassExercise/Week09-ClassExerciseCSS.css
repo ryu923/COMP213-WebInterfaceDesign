@@ -1,0 +1,65 @@
+﻿/* All */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:gray;	
+}
+
+div
+{
+	border-radius: 20px;
+	border: thin double #808080;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Header */
+#header
+{
+	color:olive;
+	font-size:x-large;
+	font-weight:bold;
+}
+
+/* Contents */
+.fisrtColumn
+{
+	width:250px;
+	text-align:right;
+	vertical-align:middle;
+}
+
+.txtName
+{
+	width:200px;
+}
+
+#txtEmail
+{
+	width:300px;
+}
+
+#txtRequest
+{
+	width:400px;
+	height:100px;
+}
+
+.button
+{
+	width:200px;
+}
+
+/* Footer */
+footer
+{
+	height:50px;
+	vertical-align:bottom;
+	margin-top:30px;
+	margin-bottom:30px;
+	background-color:olive;
+	color:white;
+	padding-top: 30px;
+	padding-left:10px;
+}

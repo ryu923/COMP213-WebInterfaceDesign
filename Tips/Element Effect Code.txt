@@ -1,0 +1,5 @@
+Element Effect Code
+
+1. <head></head>, <body></body>, etc: Using [name](head, body, etc)
+2. <h3 class="className"></h3>: Using [.](.className)
+3. <p id="explain"></p>: Using [#](#explain)

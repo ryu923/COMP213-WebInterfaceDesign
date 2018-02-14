@@ -1,0 +1,21 @@
+﻿a:visited {
+	color: #008000;
+}
+a:active {
+	color: #ADD8E6;
+}
+a:hover {
+	color: #ADD8E6;
+}
+.auto-style1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.img_right {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}

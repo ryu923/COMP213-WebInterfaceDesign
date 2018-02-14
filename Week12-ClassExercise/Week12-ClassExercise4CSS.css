@@ -1,0 +1,135 @@
+﻿/* All */
+body
+{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-color:#00005D;
+}
+
+#pageDiv
+{
+	background-color:#b3c7e6;
+	color:#00005D;
+	width:80%;
+	margin:auto;
+	min-width:850px;
+}
+
+
+/* Header */
+#headerDiv
+{
+	background-color:#869dc7;
+	color:#00005D;
+	font-size:150%;
+	padding:10px 10px 10px 155px;
+	background-image:url('images/lighthouselogo.jpg');
+	background-repeat:no-repeat;
+}
+
+
+
+/* Navigation */
+#navDiv
+{
+	float:right;
+	width:150px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	padding-left:0px;
+}
+
+#navDiv ul
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#navDiv a
+{
+	text-decoration:none;
+	display:block;
+	padding:20px;
+	background-color:#b3c7e6;
+	border-bottom:1px solid #FFFFFF;
+}
+
+#navDiv a:link
+{
+	color:#FFFFFF;
+}
+
+#navDiv a:visited
+{
+	color:#EAEAEA;
+}
+
+#navDiv a:hover
+{
+	background-color:#EAEAEA;
+	color:#869dc7;
+}
+
+
+/* Contents */
+#contentsDiv
+{
+	background-color:#FFFFFF;
+	color:#000000;
+	padding: 10px 20px;
+	overflow:auto;
+}
+
+.lightHouesePicDiv
+{
+	float:right;
+	width:260px;
+	margin:20px;
+	background-color:#FFF;
+	text-align:center;
+	font-size:0.8em;
+	padding:5px;
+	border:1px solid #CCC;
+	
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
+	-ms-transform:rotate(3deg);
+	transform::rotate(3deg);
+	
+	-webkit-box-shadow:5px 5px 5px #828282;
+	-moz-box-shadow:5px 5px 5px #828282;
+	box-shadow:5px 5px 5px #828282;
+}
+
+.lightHouesePicDiv:hover
+{
+	background-color:#CCC;
+	
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	transform:rotate(0deg);
+
+	-webkit-transition:-webkit-transition .5s linear, background-color 1s ease-in;
+	-moz-transition:-moz-transition .5s linear, background-color 1s ease-in;
+	-o-transition:-o-transition .5s linear, background-color 1s ease-in;
+	transition:transition .5s linear, background-color 1s ease-in;
+}
+
+h2{
+	color:#869dc7;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* Footer */
+#footerDiv
+{
+	font-size:70%;
+	text-align:center;
+	padding:10px;
+	background-color:#869dc7;
+}
+
